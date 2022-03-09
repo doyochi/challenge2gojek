@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/Documents/StudiIndependen_Android/chapter2/ChallengeGojek/app/src/main/res/drawable/backdrop_blue.xml" value="0.1295" />
+        <entry key="..\:/Users/HP/Documents/StudiIndependen_Android/chapter2/ChallengeGojek/app/src/main/res/drawable/backdrop_card.xml" value="0.1295" />
+        <entry key="..\:/Users/HP/Documents/StudiIndependen_Android/chapter2/ChallengeGojek/app/src/main/res/drawable/backdrop_round.xml" value="0.1295" />
+        <entry key="..\:/Users/HP/Documents/StudiIndependen_Android/chapter2/ChallengeGojek/app/src/main/res/drawable/backdrop_sq.xml" value="0.1295" />
+        <entry key="..\:/Users/HP/Documents/StudiIndependen_Android/chapter2/ChallengeGojek/app/src/main/res/drawable/backdrop_white.xml" value="0.1295" />
+        <entry key="..\:/Users/HP/Documents/StudiIndependen_Android/chapter2/ChallengeGojek/app/src/main/res/drawable/header.xml" value="0.1295" />
+        <entry key="..\:/Users/HP/Documents/StudiIndependen_Android/chapter2/ChallengeGojek/app/src/main/res/drawable/ic_arrow.xml" value="0.1295" />
+        <entry key="..\:/Users/HP/Documents/StudiIndependen_Android/chapter2/ChallengeGojek/app/src/main/res/drawable/ic_user.xml" value="0.1295" />
+        <entry key="..\:/Users/HP/Documents/StudiIndependen_Android/chapter2/ChallengeGojek/app/src/main/res/drawable/img_banner.xml" value="0.2" />
+        <entry key="..\:/Users/HP/Documents/StudiIndependen_Android/chapter2/ChallengeGojek/app/src/main/res/drawable/line.xml" value="0.373" />
+        <entry key="..\:/Users/HP/Documents/StudiIndependen_Android/chapter2/ChallengeGojek/app/src/main/res/layout/activity_main.xml" value="0.3004885993485342" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
