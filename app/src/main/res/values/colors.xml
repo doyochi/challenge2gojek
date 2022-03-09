@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gojek">#00AA13</color>
     <color name="biru">#00AED6</color>
+    <color name="shadow">#A1A4A5</color>
 </resources>
