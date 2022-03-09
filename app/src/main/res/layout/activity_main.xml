@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:background="#FAF4E4">
+    android:orientation="vertical">
 
 <!--header-->
     <LinearLayout
@@ -37,8 +36,7 @@
             android:layout_width="30dp"
             android:layout_height="match_parent"
             android:background="@drawable/backdrop_round"
-            android:layout_marginStart="12dp"
-            android:layout_marginEnd="5dp">
+            android:layout_marginStart="12dp">
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -540,19 +538,6 @@
                         android:text="GoPay mau traktir dengan kasih diskon s.d 110rb + 25rb buat jajan di GoFood! Yuk, pake~"/>
                 </LinearLayout>
             </LinearLayout>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="aaaaaaaaa"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hello World!"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

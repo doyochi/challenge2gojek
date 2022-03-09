@@ -8,6 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gojek">#00AA13</color>
+    <color name="gojek_200">#69F178</color>
+    <color name="gojek_700">#047010</color>
     <color name="biru">#00AED6</color>
+    <color name="biru_700">#047791</color>
     <color name="shadow">#A1A4A5</color>
 </resources>
