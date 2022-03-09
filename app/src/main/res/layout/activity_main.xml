@@ -130,24 +130,54 @@
                     android:layout_height="match_parent"
                     android:columnCount="3"
                     android:rowCount="1">
-
-                    <ImageView
-                        android:layout_width="match_parent"
+                    <LinearLayout
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:src="@drawable/ic_bayar"
-                        android:layout_margin="15dp" />
-
-                    <ImageView
-                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="15dp"
+                        android:paddingVertical="15dp">
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_bayar"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bayar"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:src="@drawable/ic_topup"
-                        android:layout_margin="15dp" />
-
-                    <ImageView
-                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_margin="15dp"
+                        android:paddingVertical="15dp">
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_topup"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Top Up"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:src="@drawable/ic_eksplor"
-                        android:layout_margin="15dp" />
+                        android:orientation="vertical"
+                        android:layout_margin="15dp"
+                        android:paddingVertical="15dp">
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_eksplor"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Eksplor"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
                 </GridLayout>
 
             </LinearLayout>
@@ -159,50 +189,143 @@
                 android:columnCount="4"
                 android:rowCount="2"
                 android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_gojek_logo"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GoRide"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="center"/>
 
-                <ImageView
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_goride"
-                    android:layout_margin="15dp" />
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_gocar"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GoCar"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="center"/>
 
-                <ImageView
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_gocar"
-                    android:layout_margin="15dp" />
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_gofood_logo"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GoFood"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="center"/>
 
-                <ImageView
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_gofood"
-                    android:layout_margin="15dp"/>
-                <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_gosend"
-                    android:layout_margin="15dp"/>
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_gosend"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GoSend"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="center"/>
 
-                <ImageView
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_gomart"
-                    android:layout_margin="15dp"/>
-                <ImageView
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_gomart"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GoMart"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_gopulsa"
-                    android:layout_margin="15dp"/>
-                <ImageView
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_gopulsa"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GoPulsa"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_goclub"
-                    android:layout_margin="15dp"/>
-                <ImageView
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_goclub"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="GoClub"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_lainnya"
-                    android:layout_margin="15dp"/>
+                    android:layout_height="70dp"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_lainnya"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lainnya"
+                        android:layout_marginTop="7dp"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
 
 
             </GridLayout>
