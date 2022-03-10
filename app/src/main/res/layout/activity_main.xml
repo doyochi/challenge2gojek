@@ -51,15 +51,16 @@
     <ScrollView
         android:id="@+id/main_scroll"
         android:layout_width="match_parent"
-        android:layout_height="600dp"
-        app:layout_constraintBaseline_toBottomOf="parent"
+        android:layout_height="0dp"
         app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintBottom_toTopOf="@id/footer"
         tools:layout_editor_absoluteX="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginTop="5dp">
             <!--Pays  -->
             <LinearLayout
                 android:layout_width="match_parent"
@@ -592,8 +593,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-
-        app:layout_constraintBaseline_toBottomOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/main_scroll">
 
